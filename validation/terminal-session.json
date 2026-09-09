@@ -1,0 +1,21 @@
+{
+  "terminal": "xterm-256color",
+  "size": [
+    108,
+    38
+  ],
+  "actions": [
+    "buy 1",
+    "buy 2",
+    "auto arrange",
+    "fight",
+    "hide while preparing",
+    "restore and animate",
+    "next round",
+    "save and quit"
+  ],
+  "saved_round": 2,
+  "saved_hp": 55,
+  "saved_gold": 13,
+  "terminal_restored": true
+}

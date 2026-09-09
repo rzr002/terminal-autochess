@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "source": "codex",
+  "model": "gpt-6-astra",
+  "elapsed_seconds": 18.68,
+  "plan": {
+    "sell": [],
+    "buy": [
+      0,
+      4,
+      1,
+      2,
+      3
+    ],
+    "xp_buys": 1,
+    "formation": [
+      {
+        "kind": "fern",
+        "pos": 10
+      },
+      {
+        "kind": "volt",
+        "pos": 16
+      },
+      {
+        "kind": "oracle",
+        "pos": 18
+      }
+    ],
+    "lock": false,
+    "reroll": false
+  }
+}

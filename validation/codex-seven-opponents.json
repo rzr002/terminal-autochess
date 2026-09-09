@@ -1,0 +1,284 @@
+{
+  "opponent_source": "codex",
+  "hero_source": "local (simulation only)",
+  "model": "gpt-6-astra",
+  "elapsed_seconds": 49.08,
+  "finished": false,
+  "rounds_played": 1,
+  "standings": [
+    {
+      "rank": 1,
+      "name": "ORBIT",
+      "hp": 60
+    },
+    {
+      "rank": 2,
+      "name": "ECHO",
+      "hp": 60
+    },
+    {
+      "rank": 3,
+      "name": "BLAZE",
+      "hp": 60
+    },
+    {
+      "rank": 4,
+      "name": "MOSS",
+      "hp": 58
+    },
+    {
+      "rank": 5,
+      "name": "ATLAS",
+      "hp": 58
+    },
+    {
+      "rank": 6,
+      "name": "你",
+      "hp": 56
+    },
+    {
+      "rank": 7,
+      "name": "NOVA",
+      "hp": 56
+    },
+    {
+      "rank": 8,
+      "name": "JADE",
+      "hp": 55
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "model_decisions": 7,
+      "rosters": [
+        {
+          "seat": 0,
+          "name": "你",
+          "gold": 5,
+          "level": 2,
+          "board": [
+            {
+              "uid": 1,
+              "kind": "oracle",
+              "star": 1,
+              "pos": 17
+            },
+            {
+              "uid": 2,
+              "kind": "spark",
+              "star": 1,
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "seat": 1,
+          "name": "NOVA",
+          "gold": 5,
+          "level": 2,
+          "board": [
+            {
+              "uid": 16,
+              "kind": "fern",
+              "star": 1,
+              "pos": 10
+            },
+            {
+              "uid": 18,
+              "kind": "volt",
+              "star": 1,
+              "pos": 17
+            }
+          ]
+        },
+        {
+          "seat": 2,
+          "name": "MOSS",
+          "gold": 1,
+          "level": 3,
+          "board": [
+            {
+              "uid": 6,
+              "kind": "bark",
+              "star": 1,
+              "pos": 2
+            },
+            {
+              "uid": 7,
+              "kind": "sage",
+              "star": 1,
+              "pos": 17
+            },
+            {
+              "uid": 9,
+              "kind": "spark",
+              "star": 1,
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "seat": 3,
+          "name": "BLAZE",
+          "gold": 0,
+          "level": 3,
+          "board": [
+            {
+              "uid": 10,
+              "kind": "byte",
+              "star": 1,
+              "pos": 16
+            },
+            {
+              "uid": 12,
+              "kind": "oracle",
+              "star": 1,
+              "pos": 18
+            },
+            {
+              "uid": 13,
+              "kind": "fern",
+              "star": 1,
+              "pos": 10
+            }
+          ]
+        },
+        {
+          "seat": 4,
+          "name": "ECHO",
+          "gold": 1,
+          "level": 3,
+          "board": [
+            {
+              "uid": 19,
+              "kind": "spark",
+              "star": 1,
+              "pos": 2
+            },
+            {
+              "uid": 20,
+              "kind": "volt",
+              "star": 1,
+              "pos": 17
+            },
+            {
+              "uid": 22,
+              "kind": "bear",
+              "star": 1,
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "seat": 5,
+          "name": "ATLAS",
+          "gold": 1,
+          "level": 3,
+          "board": [
+            {
+              "uid": 28,
+              "kind": "bear",
+              "star": 1,
+              "pos": 2
+            },
+            {
+              "uid": 29,
+              "kind": "bark",
+              "star": 1,
+              "pos": 3
+            },
+            {
+              "uid": 30,
+              "kind": "bear",
+              "star": 1,
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "seat": 6,
+          "name": "JADE",
+          "gold": 5,
+          "level": 2,
+          "board": [
+            {
+              "uid": 23,
+              "kind": "bark",
+              "star": 1,
+              "pos": 3
+            },
+            {
+              "uid": 24,
+              "kind": "fern",
+              "star": 1,
+              "pos": 17
+            }
+          ]
+        },
+        {
+          "seat": 7,
+          "name": "ORBIT",
+          "gold": 8,
+          "level": 2,
+          "board": [
+            {
+              "uid": 31,
+              "kind": "spark",
+              "star": 1,
+              "pos": 3
+            },
+            {
+              "uid": 32,
+              "kind": "volt",
+              "star": 1,
+              "pos": 17
+            }
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "a": 3,
+          "b": 1,
+          "ghost": false,
+          "winner": 0,
+          "survivors": [
+            2,
+            0
+          ]
+        },
+        {
+          "a": 4,
+          "b": 6,
+          "ghost": false,
+          "winner": 0,
+          "survivors": [
+            3,
+            0
+          ]
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "ghost": false,
+          "winner": null,
+          "survivors": [
+            3,
+            3
+          ]
+        },
+        {
+          "a": 0,
+          "b": 7,
+          "ghost": false,
+          "winner": 1,
+          "survivors": [
+            0,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

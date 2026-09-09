@@ -1,0 +1,26 @@
+{
+  "terminal": "xterm-256color",
+  "size": [
+    80,
+    24
+  ],
+  "input_keys": [
+    "arrow keys",
+    "Enter",
+    "Esc"
+  ],
+  "actions": [
+    "select and recruit two champions",
+    "select deploy-and-fight",
+    "automatic deployment",
+    "wait for battle result",
+    "confirm next round",
+    "open menu",
+    "select save and exit"
+  ],
+  "saved_round": 2,
+  "saved_units": 2,
+  "saved_hp": 55,
+  "saved_gold": 12,
+  "terminal_restored": true
+}

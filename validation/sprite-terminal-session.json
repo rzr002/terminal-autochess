@@ -1,0 +1,19 @@
+{
+  "terminal": "xterm-256color",
+  "size": [
+    108,
+    38
+  ],
+  "portraits": 18,
+  "checks": [
+    "colored shop thumbnails",
+    "selected portrait in sidebar",
+    "unit-menu portrait",
+    "hide clears all sprite overlays",
+    "restore and deploy",
+    "save and restore terminal"
+  ],
+  "saved_unit": "oracle",
+  "saved_position": 17,
+  "color_pairs_for_all_portraits": 121
+}

@@ -1,0 +1,33 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.11'
+          - os: macos-latest
+            python: '3.13'
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Unit tests (no model requests)
+        run: python -m unittest discover -s tests -v
+      - name: Offline game
+        run: python play.py --headless --agent local --seed 6 --rounds 30 > simulation.json
+      - name: Command installer
+        run: |
+          python install.py --bin-dir "$RUNNER_TEMP/autochess-bin"
+          cd "$RUNNER_TEMP"
+          "$RUNNER_TEMP/autochess-bin/autochess" --help
